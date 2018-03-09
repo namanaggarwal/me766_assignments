@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h> //using rand etc
+#include<stdlib.h> 
 #include<omp.h>
 #include<time.h>
 #include<math.h>
