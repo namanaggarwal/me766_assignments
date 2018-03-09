@@ -22,7 +22,7 @@ int main(){
 	float Area = PI;
 	float count=0;
 	int i;
-	omp_set_num_threads(2); //change the number of threads to verify the cod
+	omp_set_num_threads(2); //change the number of threads to verify the code
 	float x,y;
 	#pragma omp parallel for default(none) shared(i,n) private(x,y) reduction(+:count)
 	for(i=0; i<n; i++){
